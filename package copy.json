@@ -1,26 +1,22 @@
 {
-  "name": "react-router-demo",
+  "name": "webpack5-demo",
   "version": "1.0.0",
-  "description": "练习react 前端路由单页应用",
-  "main": "index.js",
+  "description": "webpack配置练习",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env webpack serve --config config/webpack.config.dev.js --port 9002",
+    "dev": "cross-env webpack serve --config config/webpack.config.dev.js --port 9001",
     "watch": "webpack --watch --config config/webpack.config.dev.js",
     "build": "webpack --config config/webpack.config.prod.js",
     "start": "npm run dev"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alan-T/React-Router-Demo.git"
-  },
   "keywords": [],
-  "author": "",
+  "author": "alan-zhou",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alan-T/React-Router-Demo/issues"
+    "url": "https://github.com/Alan-T/react-demo/issues"
   },
-  "homepage": "https://github.com/Alan-T/React-Router-Demo#readme",
+  "homepage": "https://github.com/Alan-T/react-demo#readme",
   "devDependencies": {
     "@babel/cli": "^7.15.4",
     "@babel/core": "^7.15.5",

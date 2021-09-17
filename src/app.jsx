@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './assets/images/logo.svg';
 import './app.css';
+import BaseLayout from './layout'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         >
           Learn React
         </a>
+        <BaseLayout />
       </header>
     </div>
   );

@@ -23,6 +23,7 @@ module.exports = merge(BaseConfig(), {
         port: 9000, // 默认端口
         hot: true,    // 模块热更新
         open: true,   // 启动自动打开页面
+        historyApiFallback: true  // 路由切换后刷新
         // proxy: {       // 开发代理，发布后需要nginx代理
         //     '/api/': {
         //         target: 'https://api.xxxx.cn',

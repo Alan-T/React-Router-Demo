@@ -1,6 +1,7 @@
 import React from 'react';
 
-const News = () => {
+const News = (props) => {
+    debugger
     return (
         <div>
             News

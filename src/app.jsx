@@ -1,5 +1,5 @@
 import React from 'react';
-import BaseLayout from './layout'
+import BaseLayout from './layouts'
 
 const App = () => {
   return (

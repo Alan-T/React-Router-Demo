@@ -1,10 +1,10 @@
 import React from 'react';
 
-const User = () => {
+const Setting = () => {
     return (
         <div>
-            User
+            Setting
         </div >
     )
 }
-export default User
+export default Setting

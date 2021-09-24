@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import styles from './header.module.less';
+import styles from './style.module.less';
 
 const Header = () => {
     return <React.Fragment>
